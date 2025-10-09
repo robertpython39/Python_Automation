@@ -16,7 +16,15 @@ This repository documents my progress through the **Google IT Automation with Py
 5️⃣ **Configuration Management & the Cloud** – Automating environments, using configuration tools, and understanding cloud-based scaling ☁️  
 6️⃣ **Automating Real-World Tasks with Python** – Building automation scripts for emails, reports, APIs, and system monitoring 💼  
 
-## Trello Board:
+# Trello Boards:
+- # Using Python to Interact With the Operating System ->
+- ## Managing Files and System:
+  https://trello.com/b/6ZO5g2Rn/managing-files-with-python
+- ## Regular Expressions (Regex):
+  https://trello.com/b/35nRoc0T/regular-expressions-regex
+
+
+ ## Main Board:
 https://trello.com/w/robert12972262/home
 
 Each board represents a course module — containing exercises, scripts, and mini-projects inspired by real IT workflows.  

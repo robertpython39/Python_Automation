@@ -1,0 +1,10 @@
+Folder:jpg has created successfully.
+Folder:png has created successfully.
+Folder:DS_Store has created successfully.
+File:DS_Store is moved to location: /Users/robertnicolescu/Desktop/test/DS_Store
+File:DS_Store was moved successfully.
+File:png is moved to location: /Users/robertnicolescu/Desktop/test/png
+File:png was moved successfully.
+File:jpg is moved to location: /Users/robertnicolescu/Desktop/test/jpg
+File:jpg was moved successfully.
+File:png is moved to location: /Users/robertnicolescu/Desktop/test/png
