@@ -1,5 +1,4 @@
 """
-@TODO
 Create a Python script that automatically organizes files in a folder (e.g., Downloads) into subfolders based on their file extensions (.jpg, .pdf, .txt, etc.).
 Goal:
 Practice using os Module
@@ -19,6 +18,8 @@ def organizer(folder_path):
     if not os.listdir(folder_path):  # empty list means no files/subfolders
         print("Folder is empty")
         return
+
+    # Extract extension file of files
     for root, dirs, files in os.walk(folder_path):
         # Retrieve extensions and create folder based on their extension
         for f in files:
@@ -29,26 +30,18 @@ def organizer(folder_path):
     # Create directories with extension names and log actions
     with open("log.txt", "w") as log_file:
         for extension in file_extensions:
-            # Check if folder with extension name already exists / If exists -> Delete -> Create
-            if os.path.exists(os.path.join(folder_path, extension)):
-                os.rmdir(os.path.join(folder_path, extension))
-                print(f"Created folder {os.path.join(folder_path, extension)}")
-                log_file.write(f"Folder:{extension} has created successfully.\n")
                 os.mkdir(os.path.join(folder_path, extension))
-            else:
-                os.mkdir(os.path.join(folder_path, extension))
-                print("Created folder " + os.path.join(folder_path, extension))
                 log_file.write(f"Folder:{extension} has created successfully.\n")
 
         # Move files from root directory with extension to assigned folder
         for root, dirs, files in os.walk(folder_path):
-            for file in files:
-                for extension in file_extensions:
-                    if file.endswith(extension):
-                        log_file.write(f"File:{extension} is moved to location: {os.path.join(folder_path, extension)}\n")
-                        shutil.move(os.path.join(folder_path, file),os.path.join(folder_path, extension))
-                        log_file.write(f"File:{extension} was moved successfully.\n")
+            for dir in dirs:
+                for file in files:
+                   if file.split(".")[-1] == dir:
+                        log_file.write(f"Moving:{file} to folder: {os.path.join(folder_path, dir)}\n")
+                        shutil.move((os.path.join(folder_path, file)),os.path.join(folder_path, dir))
+                        log_file.write(f"File:{file} was moved successfully.\n")
 
 if __name__ == '__main__':
-    selected_directory = r"folder_path_with_files"
+    selected_directory = r"desired_path"
     organizer(selected_directory)

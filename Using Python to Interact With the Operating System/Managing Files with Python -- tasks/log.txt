@@ -1,10 +1,13 @@
 Folder:jpg has created successfully.
-Folder:png has created successfully.
-Folder:DS_Store has created successfully.
-File:DS_Store is moved to location: /Users/robertnicolescu/Desktop/test/DS_Store
-File:DS_Store was moved successfully.
-File:png is moved to location: /Users/robertnicolescu/Desktop/test/png
-File:png was moved successfully.
-File:jpg is moved to location: /Users/robertnicolescu/Desktop/test/jpg
+Moving:digital-art-men-city-futuristic-night-hd-wallpaper-01b69d213afe95f35634472bcdf74a70.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
 File:jpg was moved successfully.
-File:png is moved to location: /Users/robertnicolescu/Desktop/test/png
+Moving:digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-08869d3810a06c28a09cf1be487204ea.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
+File:jpg was moved successfully.
+Moving:download.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
+File:jpg was moved successfully.
+Moving:windows-11-black-background-wallpaper-2560x1440_51.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
+File:jpg was moved successfully.
+Moving:windows-11-logo-colorful-wallpaper-2560x1440_51.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
+File:jpg was moved successfully.
+Moving:windows-logo-m1-chip-black-background-gradient-windows-10-5k-3840x2160-5918.jpg to folder: C:\Users\Intel Test\Desktop\Wallpapers\jpg
+File:jpg was moved successfully.
