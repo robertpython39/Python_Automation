@@ -1,0 +1,24 @@
+Selected folder:'C:\Users\Intel Test\Desktop\Wallpapers' has 9 files
+File: astro-bot-amoled-5k-7680x4320-18721.png has 3.0 MB
+File: digital-art-men-city-futuristic-night-hd-wallpaper-01b69d213afe95f35634472bcdf74a70.jpg has 1.11 MB
+File: digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-08869d3810a06c28a09cf1be487204ea.jpg has 0.11 MB
+File: download.jpg has 0.13 MB
+File: moonlight-7680x4320-11080.jpg has 3.78 MB
+File: sonic-the-hedgehog-7680x5000-11136.jpg has 7.84 MB
+File: windows-11-black-background-wallpaper-2560x1440_51.jpg has 0.06 MB
+File: windows-11-logo-colorful-wallpaper-2560x1440_51.jpg has 0.08 MB
+File: windows-logo-m1-chip-black-background-gradient-windows-10-5k-3840x2160-5918.jpg has 0.25 MB
+
+Total File Size:
+	- 16.36 MB
+
+Sorted files in descending order:
+	- sonic-the-hedgehog-7680x5000-11136.jpg: 8223203
+	- moonlight-7680x4320-11080.jpg: 3964268
+	- astro-bot-amoled-5k-7680x4320-18721.png: 3144474
+	- digital-art-men-city-futuristic-night-hd-wallpaper-01b69d213afe95f35634472bcdf74a70.jpg: 1161707
+	- windows-logo-m1-chip-black-background-gradient-windows-10-5k-3840x2160-5918.jpg: 263284
+	- download.jpg: 132664
+	- digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-08869d3810a06c28a09cf1be487204ea.jpg: 120472
+	- windows-11-logo-colorful-wallpaper-2560x1440_51.jpg: 80000
+	- windows-11-black-background-wallpaper-2560x1440_51.jpg: 66733
