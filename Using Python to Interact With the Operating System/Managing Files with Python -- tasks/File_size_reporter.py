@@ -42,7 +42,7 @@ def file_size_reporter(folder_path):
                     report_file.write(f"\t- {f}: {str(round(file_size / 1048576,2))} MB\n")
                     # Calculate total size of files:
                     size += file_size
-                except OSError as e:
+                except OSError:
                     # pass over the inaccessible files
                     continue
 
