@@ -9,7 +9,6 @@ Generate a report.txt file with the sum of results and sorted files in descendin
 # --------------- Imports ---------------
 import os
 
-# --------------- Actions ---------------
 def file_size_reporter(folder_path):
     """
     Formula:
@@ -19,49 +18,18 @@ def file_size_reporter(folder_path):
     End result:
     1024 B is equal to 0.000977 MB
     """
-    # If folder doesn't exist, stop the process
-    if not os.path.isdir(folder_path):
-        print("Folder does not exist")
-        return
-
-    report_path = os.path.join(folder_path, "report.txt")
-
-    with open(report_path, "w") as report_file:
         size = 0
-        sorted_files = dict()
         for root, dirs, files in os.walk(folder_path):
-            report_file.write(f"Selected folder:'{root}' has {str(len(files))} files\n\n")
-            report_file.write(f"Files [with size]:\n")
             for f in files:
                 file_path = os.path.join(root, f)
-                # Exclude the report file
-                if os.path.abspath(file_path) == os.path.abspath(report_path):
-                    continue
-
-                try:
-                    file_path = os.path.join(root, f)
                     file_size = os.path.getsize(file_path)
-                    report_file.write(f"\t- {f}: {str(round(file_size / 1048576,2))} MB\n")
                     # Calculate total size of files:
                     size += file_size
-
-                except OSError as e:
-                    # pass over the inaccessible files
-                    continue
-
             report_file.write("\n")
-            report_file.write("Total Size:")
             report_file.write("\n")
-            report_file.write(f"\t- {round(size / 1048576,2)} MB\n\n")
-            report_file.write("Sorted files in descending order:\n")
-
             for f in files:
                 file_path = os.path.join(root, f)
                 file_size = os.path.getsize(file_path)
-                sorted_files[f] = file_size
-
-            for key in sorted(sorted_files, key=sorted_files.get, reverse=True):
-                report_file.write(f"\t- {key}: {round(sorted_files[key] / 1048576,2)} MB\n")
 
 
 if __name__ == "__main__":
