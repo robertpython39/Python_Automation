@@ -62,5 +62,5 @@ def file_size_reporter(folder_path):
 
 
 if __name__ == "__main__":
-    path = r"C:\Users\Intel Test\Desktop\Wallpapers"
+    path = r"folder_path"
     file_size_reporter(path)
